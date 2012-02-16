@@ -1,0 +1,32 @@
+{
+  "name": "undermore",
+  "description": "Various extensions to Underscore.js",
+  "version": "0.0.1",
+  "keywords": [
+    "underscore"
+  ],
+  "dependencies": {
+    "underscore": "1.3.1"
+  },
+  "bugs": {
+    "web": "https://github.com/testdouble/undermore/issues"
+  },
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/testdouble/undermore.git"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "Apache License 2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ],
+  "homepage": "https://github.com/testdouble/undermore",
+  "maintainers":[ {
+     "name": "Justin Searls",
+     "email": "searls@gmail.com",
+     "web": "http://about.me/searls"
+  }]
+}
