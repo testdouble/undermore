@@ -22,14 +22,14 @@ _(person).withoutProperties(function(value, key) {
 => {name: "Ted", email: "ted@veridian.com"}
 ```
 
-## _.uniquals(array)
+## _.uniqual(array)
 
-`_.uniquals` is mostly like [_.uniq](http://documentcloud.github.com/underscore/#uniq), but performs comparisons with [_.isEqual](http://documentcloud.github.com/underscore/#isEqual) instead of ===.
+`_.uniqual` is mostly like [_.uniq](http://documentcloud.github.com/underscore/#uniq), but performs comparisons with [_.isEqual](http://documentcloud.github.com/underscore/#isEqual) instead of ===.
 
 Example:
 
 ``` javascript
 var fruits = [{fruit:'apple'}, {fruit:'apple'}, {fruit: 'banana'}];
-_(fruits).uniquals();
+_(fruits).uniqual();
 => [{fruit:'apple'},{fruit:'banana'}]
 ```

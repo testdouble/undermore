@@ -12,10 +12,10 @@ describe("Undermore", function() {
     });
   });
 
-  describe("_.uniquals", function() {
+  describe("_.uniqual", function() {
     beforeEach(function() {
       var fruits = [{fruit:'apple'}, {fruit:'apple'}, {fruit: 'banana'}];
-      this.result = _(fruits).uniquals();
+      this.result = _(fruits).uniqual();
     });
     it("performs a deep-equals", function() {
       expect(this.result).toEqual([{fruit:'apple'},{fruit:'banana'}]);

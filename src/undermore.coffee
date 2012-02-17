@@ -13,7 +13,7 @@ _.mixin
       delete newObj[key] if failTest(val,key) == true
     newObj
 
-  uniquals: (collection) ->
+  uniqual: (collection) ->
     _(collection).chain().flatten().map( (item,i,arr) ->
       alreadyExists = _(arr).chain().first(i).any((previousItem) ->
         _(item).isEqual(previousItem)
