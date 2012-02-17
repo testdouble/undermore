@@ -24,7 +24,7 @@ _(person).withoutProperties(function(value, key) {
 
 ## _.uniqDeep(array)
 
-`_.uniqDeep` is just like [_.uniq](http://documentcloud.github.com/underscore/#uniq), but performs comparisons with [_.isEqual](http://documentcloud.github.com/underscore/#isEqual) instead of ===. Unlike _.uniq, it doesn't take any arguments (yet).
+`_.uniqDeep` is mostly like [_.uniq](http://documentcloud.github.com/underscore/#uniq), but performs comparisons with [_.isEqual](http://documentcloud.github.com/underscore/#isEqual) instead of ===.
 
 Example:
 
