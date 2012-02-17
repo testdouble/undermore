@@ -4,7 +4,7 @@ describe "Undermore.js", ->
     When -> @result = _(@data).withoutProperties (v,k) -> k == 'b'
     Then -> expect(@result).toEqual(a:0)
 
-  describe "_.uniqDeep", ->
+  describe "_.uniquals", ->
     Given -> @items = [{a:'b'},{a:'b'},{a:'c'},{a:'c'},{a:'c'}]
-    When -> @result = _(@items).uniqDeep()
+    When -> @result = _(@items).uniquals()
     Then -> expect(@result).toEqual([{a:'b'}, {a:'c'}])
