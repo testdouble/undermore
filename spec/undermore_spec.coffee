@@ -1,4 +1,4 @@
-describe "Underscore.js mixins", ->
+describe "Undermore.js", ->
   describe "_.withoutProperties", ->
     Given -> @data = a: 0, b: "foo"
     When -> @result = _(@data).withoutProperties (v,k) -> k == 'b'
