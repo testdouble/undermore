@@ -19,7 +19,7 @@ Undermore: https://github.com/testdouble/undermore
       return newObj;
     },
     uniqual: function(collection) {
-      return _(collection).chain().flatten().map(function(item, i, arr) {
+      return _(collection).chain().map(function(item, i, arr) {
         var alreadyExists;
         alreadyExists = _(arr).chain().first(i).any(function(previousItem) {
           return _(item).isEqual(previousItem);

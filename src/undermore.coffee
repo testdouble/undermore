@@ -14,7 +14,7 @@ _.mixin
     newObj
 
   uniqual: (collection) ->
-    _(collection).chain().flatten().map( (item,i,arr) ->
+    _(collection).chain().map( (item,i,arr) ->
       alreadyExists = _(arr).chain().first(i).any((previousItem) ->
         _(item).isEqual(previousItem)
       ).value()
