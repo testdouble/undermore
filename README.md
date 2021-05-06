@@ -4,7 +4,7 @@
 
 Undermore.js is an [Underscore](http://documentcloud.github.com/underscore/) extension that adds a few methods to mixin.
 
-**[Download the latest here.](https://raw.github.com/testdouble/undermore/master/dist/undermore.js)**
+**[Download the latest here.](https://raw.github.com/testdouble/undermore/main/dist/undermore.js)**
 
 New methods:
 
